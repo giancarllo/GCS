@@ -24,15 +24,4 @@ public class PessoasTest {
 		Assert.assertNotEquals("Ahmed Angel", test.getNome());
 		Assert.assertEquals("Sora", test.getNome());
 	}
-	
-	@Test
-	public void TestRevert(){
-		fail("Testando commit apos revert");
-	}
-
-	
-	@Test
-	public void testeVazio(){
-		fail("Nao implementado");
-	}
 }

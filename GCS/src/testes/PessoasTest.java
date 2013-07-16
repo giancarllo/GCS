@@ -1,5 +1,7 @@
 package testes;
 
+import static org.junit.Assert.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -22,5 +24,11 @@ public class PessoasTest {
 		Assert.assertNotEquals("Ahmed Angel", test.getNome());
 		Assert.assertEquals("Sora", test.getNome());
 	}
+	
+	@Test
+	public void TestRevert(){
+		fail("Testando commit apos revert");
+	}
+
 
 }
